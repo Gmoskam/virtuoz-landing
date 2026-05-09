@@ -427,7 +427,7 @@ section {
 }
 
 .cover__button {
-  align-self: end;
+  align-self: center;
   margin-top: 2rem;
   background: #b5b5b5cc;
   color: var(--dark-gray);

@@ -111,18 +111,18 @@
         <div class="order__content">
           <form name="" for="order" action="https://api.web3forms.com/submit" class="order__form" data-target="" method="POST">
 
-            <input type="hidden" name="access_key" value="c7d4936d-9f30-47e5-af12-fcbf75e64cc6">
+            <input type="hidden" name="access_key" value="68d9ffde-7d1e-4ff5-b559-c364c474defc">
 
-            <input type="text" id="user__name" class="order__name" placeholder="Введите имя" required>
+            <input type="text" id="user__name" class="order__name" name="name" placeholder="Введите имя" required>
             <label for="user__name" class="order__name--label">Введите имя</label>
 
-            <input type="text" class="order__number" name="order" id="phone" placeholder="+7(000)000-00-00" required>
+            <input type="text" class="order__number" name="phone" id="phone" placeholder="+7(000)000-00-00" required>
             <label for="phone" class="order__number--label">Телефон</label>
             
-            <input type="date" id="user__date" class="order__date" required>
+            <input type="date" id="user__date" class="order__date" name="date" required>
             <label for="user__date" class="order__date--label">Выберите дату</label>
 
-            <textarea type="text" id="user__comment" class="order__comment" placeholder="Добавьте комментарий"  required></textarea>
+            <textarea type="text" id="user__comment" class="order__comment" placeholder="Добавьте комментарий" name="comment"  required></textarea>
             <label for="user__comment" class="order__comment--label">Добавьте комментарий</label>
             
             <button class="order__push">Заказать</button>
